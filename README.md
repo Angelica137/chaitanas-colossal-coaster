@@ -4,13 +4,6 @@ Chaitana's Colossal Coaster on Exercism's Python Track.
 
 ## Introduction
 
-
-## Adding Items
-
-
-**Note**: If the given `index` is 0, the item will be added to the start ("left-hand side") of the `list`.
- If the supplied `index` is greater than the final `index` on the `list`, the item will be added in the final position -- the equivalent of using `<list>.append(<item>)`.
-
 ## Instructions
 
 Chaitana owns a very popular theme park.
