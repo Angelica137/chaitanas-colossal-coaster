@@ -1,6 +1,6 @@
-from scripts import *
+from scripts.list_methods import *
 
 
-def test_add_me_to_the_queue():
-    assert add_me_to_the_queue(express_queue=["Tony", "Bruce"], normal_queue=[
-                               "RobotGuy", "WW"], ticket_type=0, person_name="HawkEye") == ["RobotGuy", "WW", "HawkEye"]
+def test_add_to_queue():
+    assert add_to_queue(express_q=["Tony", "Bruce"], normal_q=[
+        "RobotGuy", "WW"], ticket=0, name="HawkEye") == ["RobotGuy", "WW", "HawkEye"]
