@@ -9,3 +9,10 @@ def add_to_queue(express_q: list, normal_q: list, ticket: int, name: str) -> lis
         return express_q
     normal_q.append(name)
     return normal_q
+
+
+def find_my_friend(queue: list, friend_name: str) -> int:
+    """
+    Returns the position in the queue the friend is at
+    """
+    return queue.index(friend_name)
