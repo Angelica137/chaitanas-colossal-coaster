@@ -32,5 +32,5 @@ def test_how_many_name_fellows():
 
 
 def test_remove_the_last_person():
-    assert remoe_the_last_person(
+    assert remove_the_last_person(
         queue=["Natasha", "Steve", "Eltran", "Natasha", "Rocket"]) == 'Rocket'

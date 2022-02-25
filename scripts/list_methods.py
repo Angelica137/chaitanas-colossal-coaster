@@ -48,3 +48,10 @@ def how_many_name_fellows(queue: list, person_name: str) -> int:
         if name == person_name:
             count += 1
     return count
+
+
+def remove_the_last_person(queue: list) -> str:
+    """
+    Removes the last name form the list and returns the removed name
+    """
+    return queue.pop()
