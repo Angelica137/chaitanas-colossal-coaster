@@ -37,3 +37,14 @@ def remove_the_mean_person(queue: list, person_name: str) -> list:
     """
     queue.remove(person_name)
     return queue
+
+
+def how_many_name_fellows(queue: list, person_name: str) -> int:
+    """
+    Returns the number of namefellows in the given queue
+    """
+    count = 0
+    for name in queue:
+        if name == person_name:
+            count += 1
+    return count
