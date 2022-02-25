@@ -19,3 +19,8 @@ def test_find_my_friend():
 def test_add_me_with_my_friends():
     assert add_me_with_my_friends(queue=["Natasha", "Steve", "T'challa", "Wanda", "Rocket"], index=1, person_name="Bucky") == [
         "Natasha", "Bucky", "Steve", "T'challa", "Wanda", "Rocket"]
+
+
+def test_remove_the_mean_person():
+    assert remove_the_mean_person(queue=["Natasha", "Steve", "Eltran", "Wanda", "Rocket"], person_name="Eltran") == [
+        "Natasha", "Steve", "Wanda", "Rocket"]
