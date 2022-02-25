@@ -16,6 +16,6 @@ def test_find_my_friend():
         queue=["Natasha", "Steve", "T'challa", "Wanda", "Rocket"], friend_name="Steve") == 1
 
 
-def add_me_with_my_friends():
+def test_add_me_with_my_friends():
     assert add_me_with_my_friends(queue=["Natasha", "Steve", "T'challa", "Wanda", "Rocket"], index=1, person_name="Bucky") == [
         "Natasha", "Bucky", "Steve", "T'challa", "Wanda", "Rocket"]
