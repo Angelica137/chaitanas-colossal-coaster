@@ -55,3 +55,12 @@ def remove_the_last_person(queue: list) -> str:
     Removes the last name form the list and returns the removed name
     """
     return queue.pop()
+
+
+def sorted_names(queue: list) -> list:
+    """
+    Returns a copy of the names in the queue sorted in alphabetical order
+    """
+    names_in_queue = queue
+    names_in_queue.sort()
+    return names_in_queue
