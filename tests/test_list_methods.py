@@ -29,3 +29,8 @@ def test_remove_the_mean_person():
 def test_how_many_name_fellows():
     assert how_many_name_fellows(
         queue=["Natasha", "Steve", "Eltran", "Natasha", "Rocket"], person_name="Natasha") == 2
+
+
+def test_remove_the_last_person():
+    assert remoe_the_last_person(
+        queue=["Natasha", "Steve", "Eltran", "Natasha", "Rocket"]) == 'Rocket'
