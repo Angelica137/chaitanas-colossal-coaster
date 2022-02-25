@@ -24,3 +24,8 @@ def test_add_me_with_my_friends():
 def test_remove_the_mean_person():
     assert remove_the_mean_person(queue=["Natasha", "Steve", "Eltran", "Wanda", "Rocket"], person_name="Eltran") == [
         "Natasha", "Steve", "Wanda", "Rocket"]
+
+
+def test_how_many_name_fellows():
+    assert how_many_name_fellows(
+        queue=["Natasha", "Steve", "Eltran", "Natasha", "Rocket"], person_name="Natasha") == 2
