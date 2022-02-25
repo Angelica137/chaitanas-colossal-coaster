@@ -1,3 +1,4 @@
+from re import L
 from scripts.list_methods import *
 
 
@@ -34,3 +35,8 @@ def test_how_many_name_fellows():
 def test_remove_the_last_person():
     assert remove_the_last_person(
         queue=["Natasha", "Steve", "Eltran", "Natasha", "Rocket"]) == 'Rocket'
+
+
+def test_sorted_names():
+    assert sorted_names(queue=["Natasha", "Steve", "Eltran", "Natasha", "Rocket"]) == [
+        'Eltran', 'Natasha', 'Natasha', 'Rocket', 'Steve']
